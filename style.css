@@ -4,5 +4,20 @@
     box-sizing: border-box;
 }
 .form-container{
-    
+    width: 700px;
+    height: 700px;
+    margin: 10% auto;
+    justify-content:center;
+    align-items: center;
+    background: #f7f7f7;
+    box-shadow: 0 0 5px rgb(185, 185, 185);
+    border-radius: 5px;
+}
+.form-container form input{
+    display: block;
+    width: 400px;
+    padding: 10px;
+    outline: none;
+    border: none;
+    margin-top: 10px;
 }
