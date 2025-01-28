@@ -5,14 +5,18 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .form-container{
-    width: 700px;
-    height: 700px;
-    margin: 10% auto;
+    width: 450px;
+    height: 500px;
+    margin: 5% auto;
     justify-content:center;
     align-items: center;
     background: #f7f7f7;
     box-shadow: 0 0 5px rgb(185, 185, 185);
     border-radius: 5px;
+    display: flex;
+}
+.formHeader{
+    text-align: center;
 }
 .form-container form input{
     display: block;
@@ -24,11 +28,11 @@
     text-transform: uppercase;
     font-weight:bold;
 }
-.form-container input:nth-child(4){
+.form-container input:nth-child(5){
     background: #53be53;
     cursor: pointer;
 }
-.form-container input:nth-child(4):hover{
+.form-container input:nth-child(5):hover{
     background: #339c33;
     transition: 0.3s;
     color: whitesmoke;
